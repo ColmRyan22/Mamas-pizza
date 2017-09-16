@@ -1,0 +1,172 @@
+/* Colm Ryan R00125071 */
+
+#header{
+	background-color:green;
+	border: 25px solid green;
+	overflow:auto;
+	
+}
+#logo{
+	float:right;
+	height:180px;
+	width:180px;
+	margin-left:70%;
+
+}
+h1{
+	padding-top:3%;
+	padding-left:0%;
+}
+/* ----------------------------------------------------------------------------------------------------------------------------------------------------- */
+.mydiv{
+	overflow:auto;
+	text-align:center;
+}
+#nav{
+	text-align:center;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:white;}
+li {
+    float: left;}
+
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+	font-size:150%;
+	font-weight:bold;
+	}
+li a:hover {
+    background-color: white;
+}
+
+
+/* ----------------------------------------------------------------------------------------------------------------------------------------------------- */
+#container{
+	width:70%;
+	margin-left:15%;
+}
+p{
+	color:red;
+}
+#discount{
+	font-size:150%;
+	font-weight:bold;
+}
+/* ----------------------------------------------------------------------------------------------------------------------------------------------------- */
+.pizza{
+	height:30%;
+	position: relative;
+	margin-left:44%; 
+}
+
+.cheese-pizza{
+	position: relative;
+	width:180px;
+	height:180px;
+
+}
+
+#topping-1{
+    position: absolute;
+	left: 0px;
+    top: 0px;
+	z-index:1;
+	width:180px;
+	height:180px;
+	display:none;
+	
+	
+}
+#topping-2{
+    position: absolute;
+	left: 0px;
+    top: 0px;
+	z-index:2;
+	width:180px;
+	height:180px;
+	display:none;
+}
+#topping-3{
+    position: absolute;
+	left: 0px;
+    top: 0px;
+	z-index:3;
+	width:180px;
+	height:180px;
+	display:none;
+}
+#topping-4{
+    position: absolute;
+	left: 0px;
+    top: 0px;
+	z-index:4;
+	width:180px;
+	height:180px;
+	display:none;
+}
+#topping-5{
+    position: absolute;
+	left: 0px;
+    top: 0px;
+	z-index:5;
+	width:150px;
+	height:150px;
+	display:none;
+}
+#pizzabased{
+	width:150px;
+	height:1500px;
+}
+
+
+
+/* ----------------------------------------------------------------------------------------------------------------------------------------------------- */
+#form{
+	text-align:center;
+}
+#pizzabase{
+	text-align:center;
+	background-color:green;
+	font-size:150%;
+	
+}
+#Size,lable{
+	font-size:150%;
+	font-weight:bold;
+	background-color:green;
+	text-align:center;
+}
+#size{
+	font-size:120%;
+}
+/* ----------------------------------------------------------------------------------------------------------------------------------------------------- */
+#Toppings{
+	margin-right:15;
+	font-size:150%;	
+}
+#sizeDisplay{
+	text-align:center;
+}
+#total{
+	text-align:center;
+	font-size:150%;
+	font-weight:bold;
+}
+/* ----------------------------------------------------------------------------------------------------------------------------------------------------- */
+#Customerdetails{
+	background-color:red;
+}
+/* ----------------------------------------------------------------------------------------------------------------------------------------------------- */
+#footer{
+	background-color:green;
+	font-size:150%;
+	font-weight:bold;
+}
